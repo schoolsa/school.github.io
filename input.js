@@ -26,10 +26,15 @@
   var f13="";
   var f14="";
   var img="";
+  var srs="";
+    var dd="";
+
   switch(formName.toLowerCase()) {
     case 'غرير العسل':
       Text="غُرَيْر العَسَل";
        img="h.jpg";
+       srs="q.mp3";
+       dd="ddddd";
        Text3="غُرَيْر العَسَل  أو غريراء العسل (بالفرنسية: Ratel)أو (بالإنجليزية: Honey Badger) حيوان من جنس الغرير ينتمي إلى فصيلة ابن عرس. يعيش في أفريقيا ومناطق جنوب وغرب آسيا مثل بلوشستان وشرق إيران وجنوب العراق والسعودية و جنوب سلطنة عمان حيث يسمى شعبياً بالضرنبول أو جربوع الخوال وفي محافظة ظفار يسمى محلياً كُور . غرير العسل حيوان لاحم قوي للغاية، وشجاع، و لديه القليل من المفترسات الطبيعية بسبب جلده السميك و قدراته الدفاعية المتوحشة ويهوى أكل عسل النحل البري، ويبدو أنه لا تهمه لسعاته وكذلك يسرق طعام الحيوانات الأخرى الشرسة مثل الأسود الجائعة ويختطف صغار الفهد ويأكل الثعابين السّامة.";
       break;
    
@@ -93,6 +98,6 @@
        Text3="";
       break;
   }
-output.innerHTML ='<h1 class="z">' + sound + '</h1>' + '<div class="ui raised segment" id="textbox">' + '<br/>' + '<h3>' + Text + '</h3>' + '<img style="width: 300px; height: auto;" src=" ' + img + ' ">' + '<br/>' + '<br/>' + '<p class="p">' + Text3 + '</p>' + '<p>' + name + '</p>' + '<h3>' +  name4 + '</h3>' + '<h5>' + f1 + '</h5>' + '<h3>' + Text2 + '</h3>' + '<h6>' + name2 + '</h6>' + '<h5 class="aa">' + name3 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa" >' + f6 + '</h5>' + '<h5 class="aa">' + f2 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f7 + '</h5>' + '<h5 class="aa">' + f3 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f8 + '</h5>' + '<h5 class="aa">' + f5 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f10 + '</h5>' + '<h5 class="aa">' + f12 + '</h5>' + '<h5 class="aa">' + f4 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f11 + '</h5>' + '<h5 class="aa">' + f9 + '</h5>' + '<p class="p">' + f14 + '</p>' + '</div>';
+output.innerHTML ='<h1 class="z">' + sound + '</h1>' + '<div class="ui raised segment" id="textbox">' + '<br/>' + '<h3>' + Text + '</h3>' + '<audio controls><source src=" '+ srs + ' " type="audio/mpeg">' + '</audio>' + '<br/>' + '<img style="width: 300px; height: auto;" src=" ' + img + ' ">' + '<br/>' + '<br/>' + '<p class="p">' + Text3 + '</p>' + '<p>' + name + '</p>' + '<h3>' +  name4 + '</h3>' + '<h5>' + f1 + '</h5>' + '<h3>' + Text2 + '</h3>' + '<h6>' + name2 + '</h6>' + '<h5 class="aa">' + name3 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa" >' + f6 + '</h5>' + '<h5 class="aa">' + f2 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f7 + '</h5>' + '<h5 class="aa">' + f3 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f8 + '</h5>' + '<h5 class="aa">' + f5 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f10 + '</h5>' + '<h5 class="aa">' + f12 + '</h5>' + '<h5 class="aa">' + f4 + '<b class="bc">' + f13 + '</b>' + '</h5>' + '<h5 class="aa">' + f11 + '</h5>' + '<h5 class="aa">' + f9 + '</h5>' + '<p class="p">' + f14 + '</p>' + '</div>';
 
 }
